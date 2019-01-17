@@ -1,3 +1,7 @@
+''' DESCRIÇÃO DO PROBLEMA
+Given the string, check if it is a palindrome 
+(A palindrome is a string that reads the same left-to-right and right-to-left.) '''
+
 def checkPalindrome(inputString):
 
     """ (str) -> boolean
@@ -23,10 +27,17 @@ def checkPalindrome(inputString):
 
     return resultado
 
-# Teste
-print(checkPalindrome('atta'))
-print(checkPalindrome('awuwa'))
-print(checkPalindrome('a'))
-print(checkPalindrome('AffA'))
-print(checkPalindrome('A'))
-print(checkPalindrome('qwe'))
+### testes ###
+def testes():
+    # Arrays para teste. O vetorRespsta contém o respectivo resultado esperado
+    strings_teste = ['atta', 'awuwa', 'a', 'AffA', 'A', 'qwe']
+    vetorResposta = [True, True, True, True, True, False]
+    quantidade_de_testes = len(strings_teste)
+    for i in range(quantidade_de_testes):
+        if checkPalindrome(strings_teste[i]) == vetorResposta[i]:
+            print('OK para o teste com: ', strings_teste[i])
+        else:
+            print('ERRO para o teste com: ', strings_teste[i])
+
+# executar testes
+testes()
