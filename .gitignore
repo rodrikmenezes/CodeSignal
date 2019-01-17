@@ -1,1 +1,8 @@
 .vscode/settings.json
+.idea/CodeSignal.iml
+.idea/encodings.iml
+.idea/misc.xml
+.idea/modules.xml
+.ides/vcs.xml
+.idea/workspace.xml
+.idea/libraries/R_User_Library.xml
