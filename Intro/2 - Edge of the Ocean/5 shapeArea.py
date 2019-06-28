@@ -1,6 +1,6 @@
-""" DESCRIÇÃO DO DESAFIO
+''' DESCRIÇÃO DO DESAFIO
 O desafio é escrever uma função onde se recebe como input um número natural e como output a área correspondente
-que descrita pela figura area areaShape.png em anexo"""
+que descrita pela figura area areaShape.png em anexo '''
 
 def shapeArea(n):
     lateral = n + (n - 1)
