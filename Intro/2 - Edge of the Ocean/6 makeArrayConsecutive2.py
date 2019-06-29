@@ -1,16 +1,29 @@
 ''' DESCRIÇÃO DO DESAFIO
 Indicar o número de elementos faltantes em um vetor de numeros naturais onde:
-1 ≤ statues.length ≤ 10
-0 ≤ statues[i] ≤ 20
 '''
 
-# def makeArrayConsecutive2(statues):
-#     statues = [6, 2, 3, 8]
 
-statues = [6, 2, 3, 8]
+def makeArrayConsecutive2(statues):
 
-statues2 = statues.sort
+    statues.sort()
+    faltantes = []
+    n = 0
+    x1 = statues[0]
+    x2 = statues[-1]
+    lista = range(x1, x2 + 1)
 
-print(statues2)
+    for i in lista:
+        while n < len(statues):
+            if i == statues[n]:
+                n += 1
+                break
+            else:
+                faltantes.append(i)
+                break
+    numero = len(faltantes)
+    return numero
 
-print(statues2)
+
+# teste - input: [4, 7] | output: 2
+x = [4, 7]
+print(makeArrayConsecutive2(x))
