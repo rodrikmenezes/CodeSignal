@@ -1,6 +1,9 @@
-''' DESCRIÇÃO DO PROBLEMA
-Given the string, check if it is a palindrome 
-(A palindrome is a string that reads the same left-to-right and right-to-left.) '''
+# =============================================================================
+# DESCRIÇÃO DO PROBLEMA
+# Given the string, check if it is a palindrome
+# A palindrome is a string that reads the same left-to-right and right-to-left
+# =============================================================================
+
 
 def checkPalindrome(inputString):
 
@@ -27,7 +30,7 @@ def checkPalindrome(inputString):
 
     return resultado
 
-### testes ###
+### TESTES ###
 def testes():
     # Arrays para teste. O vetorRespsta contém o respectivo resultado esperado
     strings_teste = ['atta', 'awuwa', 'a', 'AffA', 'A', 'qwe']

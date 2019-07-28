@@ -1,6 +1,7 @@
-''' DESCRIÇÃO DO DESAFIO
-Indicar o número de elementos faltantes em um vetor de numeros naturais onde:
-'''
+# =============================================================================
+# DESCRIÇÃO DO DESAFIO
+# Indicar o número de elementos faltantes em um vetor de numeros naturais onde:
+# =============================================================================
 
 
 def makeArrayConsecutive2(statues):

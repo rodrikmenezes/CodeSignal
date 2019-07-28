@@ -1,12 +1,15 @@
-''' DESCIÇÃO DO DESAFIO
-Given an array of integers, find the pair of adjacent elements that 
-has the largest product and return that product
-'''
+# =============================================================================
+# DESCIÇÃO DO DESAFIO
+# Given an array of integers, find the pair of adjacent elements that
+# has the largest product and return that product
+# =============================================================================
+
 
 def adjacentElementsProduct(inputArray):
     ''' (list) -> int
-    Esta função devolve o maior produto entre dois elementos adjacentes de inputArray
-    '''
+    Esta função devolve o maior produto entre dois elementos
+    adjacentes de inputArray '''
+
     i = 1
     produto = []
     while i < len(inputArray):
@@ -16,10 +19,11 @@ def adjacentElementsProduct(inputArray):
 
     return maximo_produto
 
-### testes ###
+### TESTES ###
 def testes():
     # Arrays para teste. O vetorRespsta contém o respectivo resultado esperado
-    inputArray = [[5, 6, -4, 2, 3, 2, -23], [9, 5, 10, 2, 24, -1, -48], [4, -6, 18, 7, 3, 53]]
+    inputArray = [[5, 6, -4, 2, 3, 2, -23], [9, 5, 10, 2, 24, -1, -48],
+                  [4, -6, 18, 7, 3, 53]]
     vetorResposta = [30, 50, 159]
     quantidade_de_testes = len(inputArray)
 

@@ -1,6 +1,10 @@
-''' DESCRIÇÃO DO DESAFIO
-O desafio é escrever uma função onde se recebe como input um número natural e como output a área correspondente
-que descrita pela figura area areaShape.png em anexo '''
+# =============================================================================
+# DESCRIÇÃO DO DESAFIO
+# O desafio é escrever uma função onde se recebe como input um número natural
+# e como output a área correspondente
+# que descrita pela figura area areaShape.png em anexo
+# =============================================================================
+
 
 def shapeArea(n):
     lateral = n + (n - 1)
@@ -10,7 +14,7 @@ def shapeArea(n):
         soma = soma + 2 * lateral
     return soma
 
-### testes ###
+### TESTES ###
 def testes():
     n = [1,2,3,4]
     vetorResposta = [1,5,13,25]
