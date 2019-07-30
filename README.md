@@ -1,2 +1,2 @@
 # CodeSignal
-Soluções em Python dos exercícios e desafios propostos pelo website http://www.codesignal.com
+Soluções em Python dos exercícios propostos pelo website http://www.codesignal.com
